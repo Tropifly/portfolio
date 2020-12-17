@@ -85,7 +85,7 @@ button {
 }
 
 .header-haut h1 {
-  font-size: 60px;
+  font-size: 4em;
 }
 
 .header-haut nav a {
@@ -95,7 +95,7 @@ button {
   -webkit-transition: 300ms ease-in-out;
   transition: 300ms ease-in-out;
   border-bottom: 2px solid transparent;
-  font-size: 18px;
+  font-size: 1.25em;
 }
 
 .header-haut nav a:last-child {
@@ -124,8 +124,8 @@ button {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  margin-left: 230px;
-  margin-top: 230px;
+  margin-left: 12%;
+  margin-top: 20vh;
   position: relative;
 }
 
@@ -135,19 +135,19 @@ button {
 }
 
 .header-milieu h2 {
-  font-size: 80px;
+  font-size: 5.5em;
 }
 
 .header-milieu h4 {
-  font-size: 22px;
+  font-size: 1.52em;
 }
 
 .header-milieu i {
   color: #ff4900;
   font-size: 50px;
   position: absolute;
-  top: 30px;
-  left: 59px;
+  top: 3vh;
+  left: 5.5vh;
 }
 
 .header-milieu-bouttons {
@@ -163,9 +163,9 @@ button {
 .header-milieu-bouttons button {
   border-radius: 10px;
   border: none;
-  font-size: 22px;
+  font-size: 1.5em;
   color: #ffffff;
-  margin-top: 75px;
+  margin-top: 7vh;
 }
 
 .header-milieu-bouttons button:first-child {
@@ -186,7 +186,7 @@ button {
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  font-size: 61px;
+  font-size: 4.2em;
   color: #ff4900;
   -webkit-animation: scroll 1500ms ease-in-out alternate infinite;
           animation: scroll 1500ms ease-in-out alternate infinite;
@@ -231,7 +231,7 @@ main #propos .propos-boite {
 }
 
 main #propos .propos-boite-image {
-  width: 709px;
+  width: 50%;
   height: auto;
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
@@ -264,13 +264,13 @@ main #propos .propos-boite2-cpt1 p {
 }
 
 main #propos .propos-boite2-cpt1-trait {
-  width: 522px;
+  width: 85%;
   height: 3px;
   background-color: #ff4900;
 }
 
 main #propos .propos-boite2-cpt1-trait2 {
-  width: 550px;
+  width: 90%;
   height: 3px;
   background-color: #707070;
   position: absolute;
@@ -291,13 +291,13 @@ main #propos .propos-boite2-cpt2 p {
 }
 
 main #propos .propos-boite2-cpt2-trait {
-  width: 440px;
+  width: 72%;
   height: 3px;
   background-color: #ff6629;
 }
 
 main #propos .propos-boite2-cpt2-trait2 {
-  width: 550px;
+  width: 90%;
   height: 3px;
   background-color: #707070;
   position: absolute;
@@ -318,13 +318,13 @@ main #propos .propos-boite2-cpt3 p {
 }
 
 main #propos .propos-boite2-cpt3-trait {
-  width: 330px;
+  width: 54%;
   height: 3px;
   background-color: #ffee00;
 }
 
 main #propos .propos-boite2-cpt3-trait2 {
-  width: 550px;
+  width: 90%;
   height: 3px;
   background-color: #707070;
   position: absolute;
@@ -345,13 +345,13 @@ main #propos .propos-boite2-cpt4 p {
 }
 
 main #propos .propos-boite2-cpt4-trait {
-  width: 385px;
+  width: 63%;
   height: 3px;
   background-color: #fff129;
 }
 
 main #propos .propos-boite2-cpt4-trait2 {
-  width: 550px;
+  width: 90%;
   height: 3px;
   background-color: #707070;
   position: absolute;
@@ -369,5 +369,309 @@ main #propos .propos-boite2 button {
   padding: 20px 35px;
   position: absolute;
   bottom: 0px;
+}
+
+main #competences {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+main #competences .competences-haut {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main #competences .competences-haut h3 {
+  font-size: 40px;
+  margin-top: 50px;
+}
+
+main #competences .competences-haut-lgn1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+main #competences .competences-haut-lgn1-block {
+  width: 25%;
+  height: 132px;
+  border-radius: 8px;
+  background-color: #707070;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 70px 30px;
+}
+
+main #competences .competences-haut-lgn1-block p {
+  font-size: 25px;
+}
+
+main #competences .competences-haut-lgn1-block i {
+  font-size: 35px;
+}
+
+main #competences .competences-haut-lgn1-block i:first-child {
+  background-color: black;
+  padding: 25px;
+  border-radius: 100px;
+}
+
+main #competences .competences-haut-lgn1-block i:last-child {
+  color: #e64200;
+}
+
+main #competences .competences-haut-lgn1-block--modifier {
+  background-color: #ff4900;
+}
+
+main #competences .competences-haut-lgn1-block--modifier i:last-child {
+  color: white;
+}
+
+main #competences .competences-haut-lgn2 {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main #competences .competences-haut-lgn2-block {
+  width: 25%;
+  height: 132px;
+  border-radius: 8px;
+  background-color: #707070;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0px 30px;
+}
+
+main #competences .competences-haut-lgn2-block p {
+  font-size: 25px;
+}
+
+main #competences .competences-haut-lgn2-block i {
+  font-size: 35px;
+}
+
+main #competences .competences-haut-lgn2-block i:first-child {
+  background-color: black;
+  padding: 25px;
+  border-radius: 100px;
+}
+
+main #competences .competences-haut-lgn2-block i:last-child {
+  color: #e64200;
+}
+
+main #competences .competences-haut button {
+  border-radius: 10px;
+  border: none;
+  font-size: 22px;
+  color: #ffffff;
+  margin-top: 75px;
+  background-color: #ff4900;
+  padding: 20px 35px;
+}
+
+main #competences .competences-haut button a {
+  text-decoration: none;
+  color: white;
+}
+
+main #competences .competences-bas {
+  width: 100%;
+  height: 30%;
+  position: absolute;
+  bottom: 0%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main #competences .competences-bas-block {
+  width: 277px;
+  height: 211px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #111111;
+  border-radius: 10px;
+  border: dashed #707070;
+}
+
+main #competences .competences-bas-block p {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+main #competences .competences-bas-block h4 {
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+}
+
+main #competences .competences-bas-block--modifier {
+  background-color: #ff4900;
+  border: none;
+}
+
+main #competences .competences-bas-fond1 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-image: url("../assets/image-competences.jpg");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -2;
+}
+
+main #competences .competences-bas-fond2 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: black;
+  opacity: 0.7;
+  z-index: -1;
+}
+
+main #realisations {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+main #realisations h3 {
+  font-size: 40px;
+  margin-top: 80px;
+}
+
+main #realisations p {
+  font-size: 18px;
+}
+
+main #realisations .realisation-projets {
+  width: 100%;
+  height: auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (400px)[3];
+      grid-template-columns: repeat(3, 400px);
+  -ms-grid-rows: (60%)[2];
+      grid-template-rows: repeat(2, 60%);
+  gap: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 50px;
+}
+
+main #realisations .realisation-projets-boite {
+  position: relative;
+  overflow: hidden;
+}
+
+main #realisations .realisation-projets-boite img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+main #realisations .realisation-projets-boite-fond {
+  width: 100%;
+  height: 100%;
+  background-color: #ff4900;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  -webkit-transition: 500ms ease-in-out;
+  transition: 500ms ease-in-out;
+  -webkit-transform: translateY(110%);
+          transform: translateY(110%);
+}
+
+main #realisations .realisation-projets-boite:hover .fond {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
 }
 /*# sourceMappingURL=style.css.map */

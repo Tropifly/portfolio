@@ -23,7 +23,7 @@
 
         h1 
         {
-            font-size: 60px;
+            font-size: 4em;
         }
 
         nav a
@@ -33,7 +33,7 @@
             margin: 0px 20px;
             transition: 300ms ease-in-out;
             border-bottom: 2px solid transparent;
-            font-size: 18px;
+            font-size: 1.25em;
         }
 
         nav a:last-child
@@ -57,8 +57,8 @@
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
-        margin-left: 230px;
-        margin-top: 230px;
+        margin-left: 12%;
+        margin-top: 20vh;
         position: relative;
 
         p 
@@ -69,12 +69,12 @@
 
         h2 
         {
-            font-size: 80px;
+            font-size: 5.5em;
         }
 
         h4 
         {
-            font-size: 22px;
+            font-size: 1.52em;
         }
 
         i 
@@ -82,8 +82,8 @@
             color: $primaire;
             font-size: 50px;
             position: absolute;
-            top: 30px;
-            left: 59px;
+            top: 3vh;
+            left: 5.5vh;
         }
 
         &-bouttons
@@ -95,9 +95,9 @@
             {
                 border-radius: 10px;
                 border: none;
-                font-size: 22px;
+                font-size: 1.5em;
                 color: $secondaire;
-                margin-top: 75px;
+                margin-top: 7vh;
             }
 
             button:first-child
@@ -125,7 +125,7 @@
             bottom: 50px;
             left: 50%;
             transform: translateX(-50%);
-            font-size: 61px;
+            font-size: 4.2em;
             color: $primaire;
             animation: scroll 1500ms ease-in-out alternate infinite;
         }
@@ -156,7 +156,7 @@ main
 
             &-image 
             {
-                width: 709px;
+                width: 50%;
                 height: auto;
                 filter: grayscale(100%);
             }
@@ -188,14 +188,14 @@ main
 
                 &-trait 
                 {
-                    width: 522px;
+                    width: 85%;
                     height: 3px;
                     background-color: $primaire;
                 }
 
                 &-trait2 
                 {
-                    width: 550px;
+                    width: 90%;
                     height: 3px;
                     background-color: $quatrieme;
                     position: absolute;
@@ -215,14 +215,14 @@ main
 
                 &-trait 
                 {
-                    width: 440px;
+                    width: 72%;
                     height: 3px;
                     background-color: lighten($color: $primaire, $amount: 8);
                 }
 
                 &-trait2 
                 {
-                    width: 550px;
+                    width: 90%;
                     height: 3px;
                     background-color: $quatrieme;
                     position: absolute;
@@ -242,14 +242,14 @@ main
 
                 &-trait 
                 {
-                    width: 330px;
+                    width: 54%;
                     height: 3px;
                     background-color: $tertiaire;
                 }
 
                 &-trait2 
                 {
-                    width: 550px;
+                    width: 90%;
                     height: 3px;
                     background-color: $quatrieme;
                     position: absolute;
@@ -269,14 +269,14 @@ main
 
                 &-trait 
                 {
-                    width: 385px;
+                    width: 63%;
                     height: 3px;
                     background-color: lighten($color: $tertiaire, $amount: 8);
                 }
 
                 &-trait2 
                 {
-                    width: 550px;
+                    width: 90%;
                     height: 3px;
                     background-color: $quatrieme;
                     position: absolute;
@@ -297,6 +297,282 @@ main
                 position: absolute;
                 bottom: 0px;
             }
+        }
+    }
+
+    #competences
+    {
+        width: 100%;
+        height: 100vh;
+        position: relative;
+
+        .competences-haut
+        {
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            h3 
+            {
+                font-size: 40px;
+                margin-top: 50px;
+            }
+
+            &-lgn1 
+            {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                width: 100%;
+
+                &-block 
+                {
+                    width: 25%;
+                    height: 132px;
+                    border-radius: 8px;
+                    background-color: $quatrieme;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+                    align-items: center;
+                    margin: 70px 30px;
+
+                    p 
+                    {
+                        font-size: 25px;
+                    }
+
+                    i 
+                    {
+                        font-size: 35px;
+                    }
+
+                    i:first-child
+                    {
+                        background-color: black;
+                        padding: 25px;
+                        border-radius: 100px;
+                    }
+
+                    i:last-child
+                    {
+                        color: darken($color: $primaire, $amount: 5);
+                    }
+
+                    &--modifier
+                    {
+                        background-color: $primaire;
+
+                        i:last-child
+                        {
+                            color: white;
+                        }
+                    }
+
+
+                }
+
+                
+            }
+
+            &-lgn2 
+            {
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+
+                &-block 
+                {
+                    width: 25%;
+                    height: 132px;
+                    border-radius: 8px;
+                    background-color: $quatrieme;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+                    align-items: center;
+                    margin: 0px 30px;
+
+                    p 
+                    {
+                        font-size: 25px;
+                    }
+
+                    i 
+                    {
+                        font-size: 35px;
+                    }
+
+                    i:first-child
+                    {
+                        background-color: black;
+                        padding: 25px;
+                        border-radius: 100px;
+                    }
+
+                    i:last-child
+                    {
+                        color: darken($color: $primaire, $amount: 5);
+                    }
+                }
+
+                
+            }
+
+            button 
+            {
+                border-radius: 10px;
+                border: none;
+                font-size: 22px;
+                color: $secondaire;
+                margin-top: 75px;
+                background-color: $primaire;
+                padding: 20px 35px;
+                
+                a 
+                {
+                    text-decoration: none;
+                    color: white;
+                }
+            } 
+        }
+
+        .competences-bas
+        {
+            width: 100%;
+            height: 30%;
+            position: absolute;
+            bottom: 0%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+
+            &-block
+            {
+                width: 277px;
+                height: 211px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                background-color: $cinquieme;
+                border-radius: 10px;
+                border: dashed $quatrieme;
+
+                p 
+                {
+                    font-size: 50px;
+                    font-weight: 700;
+                }
+
+                h4 
+                {
+                    font-size: 30px;
+                    font-weight: 500;
+                    text-align: center;
+                }
+
+                &--modifier 
+                {
+                    background-color: $primaire;
+                    border: none;
+                }
+            }
+
+            &-fond1
+            {
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                background-image: url("../assets/image-competences.jpg");
+                background-position: center bottom;
+                background-repeat: no-repeat;
+                background-size: cover;
+                z-index: -2;
+            }
+
+            &-fond2
+            {
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                background-color: black;
+                opacity: 0.7;
+                z-index: -1;
+            }
+        }
+    }
+
+    #realisations
+    {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        h3 
+        {
+            font-size: 40px;
+            margin-top: 80px;
+        }
+
+        p 
+        {
+            font-size: 18px;
+        }
+
+        .realisation-projets
+        {
+            width: 100%;
+            height: auto;
+            display: grid;
+            grid-template-columns: repeat(3, 400px);
+            grid-template-rows: repeat(2, 60%);
+            gap: 30px;
+            justify-content: center;
+            margin-top: 50px;
+
+            &-boite
+            {
+                position: relative;
+                overflow: hidden;
+
+                img 
+                {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+
+                &-fond
+                {
+                    width: 100%;
+                    height: 100%;
+                    background-color: $primaire;
+                    position: absolute;
+                    top: 0px;
+                    left: 0px;
+                    transition: 500ms ease-in-out;
+                    transform: translateY(110%);
+                }
+            }
+
+            &-boite:hover .fond
+            {
+                transform: translateY(0);
+            }
+
+
         }
     }
 }
