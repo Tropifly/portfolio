@@ -311,11 +311,6 @@ button {
   }
 }
 
-.header-milieu-bouttons a {
-  text-decoration: none;
-  color: white;
-}
-
 .header-milieu-bouttons button {
   border-radius: 10px;
   border: none;
@@ -328,6 +323,11 @@ button {
   .header-milieu-bouttons button {
     margin-top: 50px;
   }
+}
+
+.header-milieu-bouttons button a {
+  text-decoration: none;
+  color: white;
 }
 
 .header-milieu-bouttons button:first-child {
@@ -1056,7 +1056,9 @@ main #realisations .realisation-projets {
   height: auto;
   display: -ms-grid;
   display: grid;
+  -ms-grid-columns: (400px)[3];
       grid-template-columns: repeat(3, 400px);
+  -ms-grid-rows: (50%)[2];
       grid-template-rows: repeat(2, 50%);
   gap: 30px;
   -webkit-box-pack: center;
@@ -1076,6 +1078,7 @@ main #realisations .realisation-projets {
 
 @media screen and (orientation: portrait) and (min-width: 899px) and (max-width: 1540px) {
   main #realisations .realisation-projets {
+    -ms-grid-columns: (400px)[2];
         grid-template-columns: repeat(2, 400px);
     -ms-grid-rows: auto;
         grid-template-rows: auto;
@@ -1084,6 +1087,7 @@ main #realisations .realisation-projets {
 
 @media screen and (min-width: 716px) and (max-width: 898px) {
   main #realisations .realisation-projets {
+    -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
     -ms-grid-rows: auto;
         grid-template-rows: auto;
