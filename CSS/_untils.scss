@@ -46,6 +46,13 @@ $tertiaire : #ffee00;
 $quatrieme : #707070;
 $cinquieme : #111111;
 
+/*breakpoints*/
+$mobile : 715px;
+$intermediaire-min : 716px;
+$intermediaire-max : 898px;
+$tablette-min : 899px;
+$tablette-max : 1540px;
+
 /*animation*/ 
 @mixin animation-scroll 
 {
